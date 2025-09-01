@@ -1,0 +1,23 @@
+
+
+
+
+
+GET http://localhost:8383/api/data
+
+###
+
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+[
+  { "name": "abfsdssdfsfsinav" },
+  { "name": "abhinav" },
+  { "name": "abfddfsav" },
+  { "name": "fsdfdsffsv" },
+  { "name": "cjsjsd" }
+]
+
+
+### deletion
+DELETE  http://localhost:8383/api/data 

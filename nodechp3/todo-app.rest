@@ -1,0 +1,18 @@
+### GET/
+
+GET http://localhost:1998
+
+
+
+
+###
+POST http://localhost:1998/auth/register
+Content-Type: application/json
+
+{
+    "username":"chy@gmail.com",
+    "password":"121121sdsdsd"
+}
+
+
+###

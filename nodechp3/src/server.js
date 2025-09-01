@@ -3,6 +3,7 @@ import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 import authRoutes from "./routes/authRoutes.js";
 import todoRoutes from "./routes/todoRoutes.js";
+import authenticateUser from "./middleware/authMiddelware.js";
 
 const app = express();
 const PORT = process.env.PORT || 1998;
@@ -30,4 +31,4 @@ app.get("/", (req, res) => {
 //auth
 
 app.use("/auth", authRoutes);
-app.use("/todos", todoRoutes);
+app.use("/todos", authenticateUser, todoRoutes);

@@ -10,9 +10,18 @@ POST http://localhost:1998/auth/register
 Content-Type: application/json
 
 {
-    "username":"chy@gmail.com",
+    "username":"chyewewe@gmail.com",
     "password":"121121sdsdsd"
 }
 
 
 ###
+
+POST http://localhost:1998/auth/login
+Content-Type: application/json
+
+{
+     "username":"chyewewe@gmail.com",
+    "password":"121121sdsdsd"
+
+}

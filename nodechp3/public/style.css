@@ -121,14 +121,14 @@ hr {
 
 .todo-buttons button:first-of-type {
   /* color: #8aff80;
-    background: rgba(138, 255, 128, .1); */
+  background: rgba(138, 255, 128, .1); */
   color: var(--background-primary);
   background: var(--color-link);
 }
 
 .todo-buttons button:last-of-type {
   /* color: #9580ff;
-    background: rgba(149, 128, 255, .1); */
+  background: rgba(149, 128, 255, .1); */
   color: var(--color-link);
   background: var(--color-link-transparent);
 }
